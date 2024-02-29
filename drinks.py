@@ -19,7 +19,9 @@ class Drinks:
     def ler_arquivo(self):
         with open(self.arquivo, newline='') as csvfile:
                     arquivo_csv = csv.DictReader(csvfile, delimiter=',')
-                    return list(arquivo_csv)
+                    #return list(arquivo_csv)
+                    for linha in arquivo_csv:
+                         print(linha)
 
 
     def pais_maior_consumo_de_cerveja(self):
@@ -72,8 +74,10 @@ class Drinks:
 
 drink = Drinks('drinks.csv')
 
-pais_com_maior_consumo = drink.pais_maior_consumo_de_cerveja()
-bebida_com_maior_consumo = drink.bebida_mais_consumida()
+#pais_com_maior_consumo = drink.pais_maior_consumo_de_cerveja()
+#bebida_com_maior_consumo = drink.bebida_mais_consumida()
 
-print(pais_com_maior_consumo)
-print(bebida_com_maior_consumo)
+#print(pais_com_maior_consumo)
+#print(bebida_com_maior_consumo)
+
+print(drink.ler_arquivo())
