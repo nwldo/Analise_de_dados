@@ -18,22 +18,21 @@ As atividades foram criadas utilizando as tecnologias:
 ---
 ## 📦️ Como instalar o jupyter notebook
 Pelo prompt de comando digite:
+## No Windows
 ```bash
   # pip install notebook
-  # Cria um
-  # Clone o repositório
  
 ```
 ---
 
 ## 📦️ Como rodar o projeto
 ```bash
-  # Cria uma pasta no seu computador
+  # Crie uma pasta no seu computador
   # Selecione o endereço da pasta e digite "cmd"
   # No prompt que se abre digite "jupyter notebook"
   # Irá ser aberto o navegador padrão com o endereço localhos:porta/tree
   # Para criar um arquivo clique em "New" será criado um Untitled depois renomeio-o
-  # Digite o código na célula e para criar mais células clique em simbolo "+"
+  # Digite o código na célula e para criar mais células clique no simbolo "+"
 
   ```
 
