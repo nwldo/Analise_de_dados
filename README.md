@@ -14,12 +14,17 @@ Para realizar as atividades da análise de dados poderá usa:
 As atividades foram criadas utilizando as tecnologias:
 - [Jupyter Notebok](https://jupyter.org/install)
 - [Python](https://www.python.org/doc/)
+- [Pandas](https://pypi.org/project/pandas/)
+- [Pandas](https://numpy.org/install/)
 
 ---
-## 📦️ Como instalar o jupyter notebook
+## 📦️ Como instalar as tecnoligias
 Pelo prompt de comando digite:
 ## No Windows
 ```bash
+  # [Baixe e instale o Python](https://www.python.org/downloads/)
+  # pip install pandas
+  # pip install numpy
   # pip install notebook
  
 ```
