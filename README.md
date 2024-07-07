@@ -45,3 +45,9 @@ Pelo prompt de comando digite:
 ---
 <img src="https://github.com/Nwldo/Analise_de_dados/blob/main/img/jupyter_1.png">
 <img src="https://github.com/Nwldo/Analise_de_dados/blob/main/img/jupyter_2.png">
+
+# Análise Descritiva de Dados com Pandas
+## A função describe()
+A função describe() é uma ferramenta valiosa para obter estatísticas descritivas sobre colunas numéricas em um dataframe. Ela fornece informações importantes sobre a distribuição dos dados, permitindo insights valiosos sem a necessidade de visualizações complexas.
+
+* A função describe() exibe estatísticas descritivas, como count, mean, std, min, 25%, 50%, 75% e max, sobre colunas numéricas em um dataframe.
