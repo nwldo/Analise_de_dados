@@ -27,6 +27,7 @@ Pelo prompt de comando digite:
   # pip install numpy
   # pip install notebook
   # pip install ipython
+  # pip install matplotlib
  
 ```
 ---
